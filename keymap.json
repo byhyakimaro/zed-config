@@ -1,0 +1,46 @@
+// Zed keymap
+
+//
+
+// For information on binding keys, see the Zed
+
+// documentation: https://zed.dev/docs/key-bindings
+
+//
+
+// To see the default key bindings run `zed: open default keymap`
+
+// from the command palette.
+
+[
+  {
+    "context": "Workspace",
+
+    "bindings": {
+      //"shift shift": "file_finder::Toggle"
+      
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "enter": "project_panel::Open",
+      "ctrl-p": "file_finder::Toggle",
+      "alt-f": "project_panel::UnfoldDirectory"
+    }
+  },
+  {
+    "context": "Editor",
+
+    "bindings": {
+      "ctrl-down": "editor::MoveToEnd",
+      "ctrl-up": "editor::MoveToBeginning",
+      "alt-right": "editor::MoveToEndOfLine",
+      "alt-left": "editor::MoveToBeginningOfLine",
+      "alt-a": "editor::SelectLine",
+      "alt-p": "project_panel::ToggleFocus",
+      "alt-t": "terminal_panel::ToggleFocus",
+      "shift-alt-f": "editor::Format"
+    }
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "show_edit_predictions": false,
+  "icon_theme": "Bearded Icon Theme",
+  "vim_mode": false,
+  "relative_line_numbers": false,
+  "auto_update_extensions": {
+    "discord-presence": false
+  },
+  "agent": {
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-3.5-turbo"
+    }
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Xcode High Contrast Darker"
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 500
+    }
+  },
+  "buffer_font_features": {
+    "calt": true
+  },
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
+  "languages": {
+    "Go": {
+      "enable_language_server": true,
+      "language_servers": ["gopls"]
+    },
+    "Java": {
+      "enable_language_server": true,
+      "language_servers": ["jdtls"]
+    },
+    "HTML": {
+      "language_servers": ["vscode-html-language-server", "superhtml"],
+      "formatter": { "language_server": { "name": "superhtml" } }
+    }
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "hints": {
+          "assignVariableTypes": true,
+          "compositeLiteralFields": true,
+          "compositeLiteralTypes": true,
+          "constantValues": true,
+          "functionTypeParameters": true,
+          "parameterNames": true,
+          "rangeVariableTypes": true
+        }
+      },
+      "codelenses": {
+        "generate": false,
+        "gc_details": true,
+        "completeUnimported": true
+      }
+    },
+    "jdtls": {
+      "initialization_options": {
+        "settings": {
+          "java": {
+            "jdt": {
+              "ls": {
+                "vmargs": "--enable-preview"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ssh_connections": [
+    {
+      "host": "192.168.15.15",
+      "port": 22,
+      "username": "root"
+    }
+  ],
+  "cursor_blink": true,
+  "cursor_shape": "bar",
+  "terminal": {
+    "shell": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
+  }
+}
