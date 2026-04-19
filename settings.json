@@ -23,4 +23,11 @@
   },
   "ui_font_family": "JetBrains Mono",
   "buffer_font_family": "JetBrains Mono",
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "path": "C:/msys64/ucrt64/bin/clangd.exe",
+      },
+    },
+  },
 }
