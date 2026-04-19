@@ -26,7 +26,7 @@
   "lsp": {
     "clangd": {
       "binary": {
-        "path": "C:/msys64/ucrt64/bin/clangd.exe",
+        "path": "C:/msys64/ucrt64/bin/clang.exe",
       },
     },
   },
